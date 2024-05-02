@@ -67,5 +67,18 @@ namespace NoteAppUI
                 textBoxTitle.Text = "Слишком длинное название!!!";
             }
         }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            // Спрашиваем у пользователя, действительно ли он хочет закрыть программу
+            DialogResult result = MessageBox.Show("Действительно ли вы хотите удалить заметку?", "Подтверждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            // Проверяем, нажал ли пользователь кнопку "Да"
+            if (result == DialogResult.Yes)
+            {
+                // Закрываем форму
+                this.Close();
+            }
+        }
     }
 }
