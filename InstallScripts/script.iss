@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "NoteApp"
-#define MyAppVersion "1.0.4"
+#define MyAppVersion "1.0.0"
 #define MyAppExeName "NoteAppUI.exe"
 #define MyAppAssocName MyAppName + " File"
 #define MyAppAssocExt ".myp"
@@ -20,11 +20,12 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\Dani\Desktop
+OutputDir=C:\Users\Пользователь\Desktop\
 OutputBaseFilename=mysetup
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -34,31 +35,31 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\NoteApp.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\NoteApp.dll.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\NoteApp.notes"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\NoteApp.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\NoteAppUI.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\NoteAppUI.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Buffers.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Buffers.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Memory.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Memory.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Numerics.Vectors.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Numerics.Vectors.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Runtime.CompilerServices.Unsafe.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Runtime.CompilerServices.Unsafe.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Text.Encodings.Web.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Text.Encodings.Web.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Text.Json.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Text.Json.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Threading.Tasks.Extensions.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.Threading.Tasks.Extensions.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.ValueTuple.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Dani\source\repos\NoteApp\NoteApp\NoteAppUI\bin\Release\System.ValueTuple.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\NoteApp.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\NoteApp.dll.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\NoteApp.notes"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\NoteApp.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\NoteAppUI.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\NoteAppUI.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Buffers.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Buffers.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Memory.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Memory.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Numerics.Vectors.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Numerics.Vectors.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Runtime.CompilerServices.Unsafe.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Runtime.CompilerServices.Unsafe.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Text.Encodings.Web.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Text.Encodings.Web.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Text.Json.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Text.Json.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Threading.Tasks.Extensions.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.Threading.Tasks.Extensions.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.ValueTuple.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Пользователь\Desktop\Иконки для СПО\NoteApp\NoteApp-develop\NoteApp\NoteAppUI\bin\Release\System.ValueTuple.xml"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
